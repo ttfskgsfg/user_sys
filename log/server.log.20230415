@@ -1,0 +1,88 @@
+[2023-04-15 15:03:45] INFO[api.go:56] loggin start,user:zhangsan, password:123456
+[2023-04-15 15:03:45] INFO[redis.go:20] redisConfig======={Host:121.43.102.177 Port:8089 DB:0 PassWord: PoolSize:100}
+[2023-04-15 15:03:45] INFO[redis.go:32] res=======OK,err======<nil>
+[2023-04-15 15:03:45] INFO[user.go:133] cache_user ======= &{{zhangsan 2023-04-03 23:51:32 +0800 CST} {zhangsan 2023-04-14 11:08:13 +0800 CST} 1 zhangsan male 18 123456 zhangsan1}
+[2023-04-15 15:03:45] INFO[user.go:76] Login successfully, zhangsan@123456 with redis_session session_abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:03:45] INFO[user.go:98] a9854dbd44f56834e1821b17b8b29957|GetUserInfo access from,user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:03:45] INFO[user.go:113] a9854dbd44f56834e1821b17b8b29957|Succ to GetUserInfo|user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:13:46] INFO[user.go:98] 1e1ab33f9ff6b5eafc52c78e760f9751|GetUserInfo access from,user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:13:46] INFO[redis.go:20] redisConfig======={Host:121.43.102.177 Port:8089 DB:0 PassWord: PoolSize:100}
+[2023-04-15 15:13:46] INFO[redis.go:32] res=======OK,err======<nil>
+[2023-04-15 15:13:46] INFO[user.go:113] 1e1ab33f9ff6b5eafc52c78e760f9751|Succ to GetUserInfo|user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:14:15] INFO[user.go:84] 471ef95c421c0b8c8114e15202f49851|Logout access from,user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:14:29] ERROR[user.go:90] 471ef95c421c0b8c8114e15202f49851|Failed to delSessionInfo :abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:16:39] INFO[user.go:84] 8b94b8d68415d60dba83a06b8351ac26|Logout access from,user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:16:39] INFO[redis.go:20] redisConfig======={Host:121.43.102.177 Port:8089 DB:0 PassWord: PoolSize:100}
+[2023-04-15 15:16:39] INFO[redis.go:32] res=======OK,err======<nil>
+[2023-04-15 15:16:39] INFO[user.go:90] 8b94b8d68415d60dba83a06b8351ac26|Success to delSessionInfo :abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:16:43] INFO[user.go:84] fe32be3c783211e1d625a7d93c63069e|Logout access from,user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:16:43] INFO[user.go:90] fe32be3c783211e1d625a7d93c63069e|Success to delSessionInfo :abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:16:46] INFO[user.go:84] 4b666cfa80f3de0750824056c9a18082|Logout access from,user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:16:46] INFO[user.go:90] 4b666cfa80f3de0750824056c9a18082|Success to delSessionInfo :abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:18:03] INFO[user.go:84] 71f5aaf0e2cfe913dff2b64d4842375a|Logout access from,user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:18:03] INFO[user.go:90] 71f5aaf0e2cfe913dff2b64d4842375a|Success to delSessionInfo :abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:34:06] INFO[api.go:56] loggin start,user:zhangsan, password:123456
+[2023-04-15 15:34:06] INFO[user.go:153] cache_user ======= &{{zhangsan 2023-04-03 23:51:32 +0800 CST} {zhangsan 2023-04-14 11:08:13 +0800 CST} 1 zhangsan male 18 123456 zhangsan1}
+[2023-04-15 15:34:07] INFO[user.go:76] Login successfully, zhangsan@123456 with redis_session session_abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:34:07] INFO[user.go:98] 07110fd9eb81adfb63485cb36e01846e|GetUserInfo access from,user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:34:07] INFO[user.go:113] 07110fd9eb81adfb63485cb36e01846e|Succ to GetUserInfo|user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:36:58] INFO[user.go:84] b5164083cec450aabc02b328bff07221|Logout access from,user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:36:58] INFO[user.go:90] b5164083cec450aabc02b328bff07221|Success to delSessionInfo :abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:41:31] INFO[user.go:84] b326d409b578a250965957422053d0b4|Logout access from,user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:41:31] INFO[redis.go:20] redisConfig======={Host:121.43.102.177 Port:8089 DB:0 PassWord: PoolSize:100}
+[2023-04-15 15:41:31] INFO[redis.go:32] res=======OK,err======<nil>
+[2023-04-15 15:41:31] ERROR[user.go:88] b326d409b578a250965957422053d0b4|Failed to get with session=abfc434dfbd8fd817449ce58438f8413|err =redis: nil
+[2023-04-15 15:45:05] INFO[api.go:56] loggin start,user:zhangsan, password:123456
+[2023-04-15 15:45:05] INFO[redis.go:20] redisConfig======={Host:121.43.102.177 Port:8089 DB:0 PassWord: PoolSize:100}
+[2023-04-15 15:45:05] INFO[redis.go:32] res=======OK,err======<nil>
+[2023-04-15 15:45:05] INFO[user.go:160] cache_user ======= &{{zhangsan 2023-04-03 23:51:32 +0800 CST} {zhangsan 2023-04-14 11:08:13 +0800 CST} 1 zhangsan male 18 123456 zhangsan1}
+[2023-04-15 15:45:05] INFO[user.go:76] Login successfully, zhangsan@123456 with redis_session session_abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:45:05] INFO[user.go:105] f6c5ef5965c74f911241cb07ab4fccfc|GetUserInfo access from,user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:45:05] INFO[user.go:120] f6c5ef5965c74f911241cb07ab4fccfc|Succ to GetUserInfo|user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:45:11] INFO[api.go:119] UpdateNickName|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:45:11] INFO[user.go:133] ce59614c070dac918c4d3a95296f640e|UpdateUserNickName access from,user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:45:11] INFO[user.go:134] UpdateUserNickName|req==&{zhangsan zhangsan2}
+[2023-04-15 15:45:11] INFO[db.go:23] mdb addr:root:123456@(121.43.102.177:8086)/camps_user?charset=utf8&parseTime=True&loc=Local
+[2023-04-15 15:45:15] INFO[user.go:84] bafde2d499a50061437a16882198aaf3|Logout access from,user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:45:15] INFO[user.go:97] bafde2d499a50061437a16882198aaf3|Success to delSessionInfo :abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:47:20] INFO[api.go:56] loggin start,user:zhangsan, password:123456
+[2023-04-15 15:47:20] INFO[redis.go:20] redisConfig======={Host:121.43.102.177 Port:8089 DB:0 PassWord: PoolSize:100}
+[2023-04-15 15:47:20] INFO[redis.go:32] res=======OK,err======<nil>
+[2023-04-15 15:47:20] INFO[user.go:160] cache_user ======= &{{zhangsan 2023-04-03 23:51:32 +0800 CST} {zhangsan 2023-04-15 15:45:12 +0800 CST} 1 zhangsan male 18 123456 zhangsan2}
+[2023-04-15 15:47:20] INFO[user.go:76] Login successfully, zhangsan@123456 with redis_session session_abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:47:20] INFO[user.go:105] 42788c1ee49c9a0f493032046de47cd9|GetUserInfo access from,user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:47:20] INFO[user.go:120] 42788c1ee49c9a0f493032046de47cd9|Succ to GetUserInfo|user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:47:23] INFO[user.go:84] 9d8c006e037650cde57ca1676830413a|Logout access from,user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:47:23] INFO[user.go:97] 9d8c006e037650cde57ca1676830413a|Success to delSessionInfo :abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:47:41] INFO[api.go:56] loggin start,user:zhangsan, password:123456
+[2023-04-15 15:47:41] INFO[user.go:160] cache_user ======= &{{zhangsan 2023-04-03 23:51:32 +0800 CST} {zhangsan 2023-04-15 15:45:12 +0800 CST} 1 zhangsan male 18 123456 zhangsan2}
+[2023-04-15 15:47:41] INFO[user.go:76] Login successfully, zhangsan@123456 with redis_session session_abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:47:41] INFO[user.go:105] 5c460ba8d6005045343eb905bce55126|GetUserInfo access from,user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:47:41] INFO[user.go:120] 5c460ba8d6005045343eb905bce55126|Succ to GetUserInfo|user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:47:45] INFO[user.go:84] d1d84a9837e5ffc51e3d6555125e17ed|Logout access from,user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:47:46] INFO[user.go:97] d1d84a9837e5ffc51e3d6555125e17ed|Success to delSessionInfo :abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 15:50:09] INFO[db.go:23] mdb addr:root:123456@(121.43.102.177:8086)/camps_user?charset=utf8&parseTime=True&loc=Local
+[2023-04-15 15:50:09] INFO[user.go:43] user ====== &{CreateModel:{Creator:zhaosi CreateTime:0001-01-01 00:00:00 +0000 UTC} ModifyModel:{Modifier:zhaosi ModifyTime:0001-01-01 00:00:00 +0000 UTC} ID:0 Name:zhaosi Gender:female Age:21 PassWord:123456 NickName:zhaosi1}
+[2023-04-15 15:50:09] INFO[user.go:30] insert success
+[2023-04-15 15:50:44] INFO[api.go:56] loggin start,user:zhaosi1, password:123456
+[2023-04-15 15:50:44] ERROR[user.go:58] Login|用户尚未注册
+[2023-04-15 15:50:46] INFO[api.go:56] loggin start,user:zhaosi1, password:123456
+[2023-04-15 15:50:47] ERROR[user.go:58] Login|用户尚未注册
+[2023-04-15 15:50:55] INFO[api.go:56] loggin start,user:zhaosi, password:123456
+[2023-04-15 15:50:55] INFO[user.go:172] user === &{CreateModel:{Creator:zhaosi CreateTime:2023-04-15 15:50:10 +0800 CST} ModifyModel:{Modifier:zhaosi ModifyTime:2023-04-15 15:50:10 +0800 CST} ID:7 Name:zhaosi Gender:female Age:21 PassWord:123456 NickName:zhaosi1}
+[2023-04-15 15:50:55] INFO[user.go:177] getUserInfo successfully, with key userinfo_zhaosi
+[2023-04-15 15:50:55] INFO[user.go:76] Login successfully, zhaosi@123456 with redis_session session_aa610ba6c7380767adc9aab44e6a7863
+[2023-04-15 15:50:55] INFO[user.go:105] 5e76687ce9282ec0f148591066e305c4|GetUserInfo access from,user_name=zhaosi|session=aa610ba6c7380767adc9aab44e6a7863
+[2023-04-15 15:50:55] INFO[user.go:120] 5e76687ce9282ec0f148591066e305c4|Succ to GetUserInfo|user_name=zhaosi|session=aa610ba6c7380767adc9aab44e6a7863
+[2023-04-15 15:50:59] INFO[api.go:119] UpdateNickName|session=aa610ba6c7380767adc9aab44e6a7863
+[2023-04-15 15:50:59] INFO[user.go:133] 46103027bd2559f6d13c7104ab8911e3|UpdateUserNickName access from,user_name=zhaosi|session=aa610ba6c7380767adc9aab44e6a7863
+[2023-04-15 15:50:59] INFO[user.go:134] UpdateUserNickName|req==&{zhaosi zhaosi2}
+[2023-04-15 15:51:03] INFO[user.go:84] 99ab0b45f347f51faa0c175370175e47|Logout access from,user_name=zhaosi|session=aa610ba6c7380767adc9aab44e6a7863
+[2023-04-15 15:51:03] INFO[user.go:97] 99ab0b45f347f51faa0c175370175e47|Success to delSessionInfo :aa610ba6c7380767adc9aab44e6a7863
+[2023-04-15 16:08:47] INFO[user.go:43] user ====== &{CreateModel:{Creator:user1 CreateTime:0001-01-01 00:00:00 +0000 UTC} ModifyModel:{Modifier:user1 ModifyTime:0001-01-01 00:00:00 +0000 UTC} ID:0 Name:user1 Gender:male Age:18 PassWord:123456 NickName:user1}
+[2023-04-15 16:08:47] INFO[user.go:30] insert success
+[2023-04-15 16:15:31] INFO[api.go:56] loggin start,user:zhangsan, password:123456
+[2023-04-15 16:15:31] INFO[user.go:160] cache_user ======= &{{zhangsan 2023-04-03 23:51:32 +0800 CST} {zhangsan 2023-04-15 15:45:12 +0800 CST} 1 zhangsan male 18 123456 zhangsan2}
+[2023-04-15 16:15:32] INFO[user.go:76] Login successfully, zhangsan@123456 with redis_session session_abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 16:15:32] INFO[user.go:105] af9371b2be470d361ae9dae89adde6be|GetUserInfo access from,user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413
+[2023-04-15 16:15:32] INFO[user.go:120] af9371b2be470d361ae9dae89adde6be|Succ to GetUserInfo|user_name=zhangsan|session=abfc434dfbd8fd817449ce58438f8413

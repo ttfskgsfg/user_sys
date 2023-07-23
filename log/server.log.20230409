@@ -1,0 +1,6 @@
+[2023-04-09 23:02:48] INFO[db.go:23] mdb addr:root:123456@(121.43.102.177:8086)/camps_user?charset=utf8&parseTime=True&loc=Local
+[2023-04-09 23:02:48] INFO[user.go:43] user ====== &{CreateModel:{Creator:lisi CreateTime:0001-01-01 00:00:00 +0000 UTC} ModifyModel:{Modifier:lisi ModifyTime:0001-01-01 00:00:00 +0000 UTC} ID:0 Name:lisi Gender:female Age:20 PassWord:123456 NickName:lisi}
+[2023-04-09 23:02:49] INFO[user.go:30] insert success
+[2023-04-09 23:48:42] ERROR[user.go:26] 23r23r2r2r23r32r2
+[2023-04-09 23:57:28] ERROR[user.go:26] 23r23r2r2r23r32r2
+[2023-04-09 23:57:34] ERROR[user.go:26] 23r23r2r2r23r32r2

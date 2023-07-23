@@ -1,0 +1,20 @@
+[2023-04-10 00:01:10] ERROR[user.go:26] 23r23r2r2r23r32r2
+[2023-04-10 00:02:03] ERROR[user.go:26] 23r23r2r2r23r32r2
+[2023-04-10 00:02:24] ERROR[user.go:26] 23r23r2r2r23r32r2
+[2023-04-10 00:03:30] INFO[user.go:43] user ====== &{CreateModel:{Creator:lsii CreateTime:0001-01-01 00:00:00 +0000 UTC} ModifyModel:{Modifier:lsii ModifyTime:0001-01-01 00:00:00 +0000 UTC} ID:0 Name:lsii Gender:male Age:20 PassWord:123456 NickName:lisi}
+[2023-04-10 00:03:31] INFO[user.go:30] insert success
+[2023-04-10 00:04:02] ERROR[user.go:26] 23r23r2r2r23r32r2
+[2023-04-10 00:05:54] ERROR[user.go:26] 23r23r2r2r23r32r2
+[2023-04-10 00:06:33] ERROR[user.go:26] 23r23r2r2r23r32r2
+[2023-04-10 00:07:17] INFO[db.go:23] mdb addr:root:123456@(121.43.102.177:8086)/camps_user?charset=utf8&parseTime=True&loc=Local
+[2023-04-10 00:07:18] ERROR[user.go:26] 23r23r2r2r23r32r2
+[2023-04-10 00:08:28] ERROR[user.go:26] 23r23r2r2r23r32r2
+[2023-04-10 00:11:39] ERROR[user.go:17] register param invalid
+[2023-04-10 00:11:49] ERROR[user.go:17] register param invalid
+[2023-04-10 00:12:52] ERROR[user.go:26] 23r23r2r2r23r32r2
+[2023-04-10 00:13:39] ERROR[user.go:26] 23r23r2r2r23r32r2
+[2023-04-10 00:13:40] ERROR[user.go:26] 23r23r2r2r23r32r2
+[2023-04-10 00:13:41] ERROR[user.go:26] 23r23r2r2r23r32r2
+[2023-04-10 00:13:43] ERROR[user.go:26] 23r23r2r2r23r32r2
+[2023-04-10 00:18:29] ERROR[user.go:26] 23r23r2r2r23r32r2
+[2023-04-10 00:27:06] ERROR[user.go:26] 23r23r2r2r23r32r2
